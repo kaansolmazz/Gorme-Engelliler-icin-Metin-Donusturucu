@@ -39,7 +39,7 @@
 </ol>
 
 <h2>Katkıda Bulunma</h2>
-<p>Katkılarınızı memnuniyetle karşılıyoruz! Eğer bu projeyi geliştirmek isterseniz, lütfen bir pull request gönderin veya bir konu açın.</p>
+<p>Katkılarınızı memnuniyetle karşılıyorum! Eğer bu projeyi geliştirmek isterseniz, lütfen mail atınız.</p>
 
 <h2>Lisans</h2>
 <p>Bu proje Kırıkkale Üniversitesi lisans eğitimi altında gerçekleştirilmiştir.</p>
