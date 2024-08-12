@@ -42,4 +42,4 @@
 <p>Katkılarınızı memnuniyetle karşılıyorum! Eğer bu projeyi geliştirmek isterseniz, lütfen mail atınız.</p>
 
 <h2>Lisans</h2>
-<p>Bu proje Kırıkkale Üniversitesi lisans eğitimi altında gerçekleştirilmiştir.</p>
+<p>Bu proje Kırıkkale Üniversitesi lisans eğitimim altında gerçekleştirilmiştir.</p>
