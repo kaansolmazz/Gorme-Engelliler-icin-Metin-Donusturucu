@@ -17,6 +17,18 @@
     <li>Gerekli Python kütüphanelerini yükleyin:</li>
     <pre><code>pip install -r requirements.txt</code></pre>
 
+    <p><strong>Not:</strong> <code>requirements.txt</code> dosyasına aşağıdaki kütüphaneleri eklemeyi unutmayın:</p>
+    <ul>
+        <li>tkinter</li>
+        <li>gTTS</li>
+        <li>pygame</li>
+        <li>requests</li>
+        <li>beautifulsoup4</li>
+        <li>googletrans</li>
+        <li>langdetect</li>
+        <li>translate</li>
+    </ul>
+
     <li>Uygulamayı çalıştırın:</li>
     <pre><code>python gorme_engelli.py</code></pre>
 </ol>
