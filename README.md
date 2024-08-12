@@ -11,26 +11,24 @@
 
 <h2>Kurulum</h2>
 <ol>
-    <li>Bu projeyi yerel makinenize klonlayın:</li>
-    <pre><code>git clone https://github.com/kullaniciadi/projeadi.git</code></pre>
+   <li>Gerekli Python kütüphanelerini yükleyin:</li>
+<pre><code>pip install -r requirements.txt</code></pre>
 
-    <li>Gerekli Python kütüphanelerini yükleyin:</li>
-    <pre><code>pip install -r requirements.txt</code></pre>
+<p><strong>Not:</strong> <code>requirements.txt</code> dosyasına aşağıdaki kütüphaneleri eklemeyi unutmayın:</p>
+<ul>
+    <li>tkinter</li>
+    <li>gTTS</li>
+    <li>pygame</li>
+    <li>requests</li>
+    <li>beautifulsoup4</li>
+    <li>googletrans</li>
+    <li>langdetect</li>
+    <li>translate</li>
+</ul>
 
-    <p><strong>Not:</strong> <code>requirements.txt</code> dosyasına aşağıdaki kütüphaneleri eklemeyi unutmayın:</p>
-    <ul>
-        <li>tkinter</li>
-        <li>gTTS</li>
-        <li>pygame</li>
-        <li>requests</li>
-        <li>beautifulsoup4</li>
-        <li>googletrans</li>
-        <li>langdetect</li>
-        <li>translate</li>
-    </ul>
+<li>Uygulamayı çalıştırın:</li>
+<pre><code>python gorme_engelli.py</code></pre>
 
-    <li>Uygulamayı çalıştırın:</li>
-    <pre><code>python gorme_engelli.py</code></pre>
 </ol>
 
 <h2>Kullanım</h2>
