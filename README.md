@@ -1,42 +1,35 @@
-Görme Engelliler İçin Web İçerik Seslendirme Uygulaması
-Bu proje, görme engelli bireylerin web sitelerindeki metinleri ve görselleri sesli olarak dinlemelerini sağlamak amacıyla geliştirilmiş bir uygulamadır. Uygulama, bir web sitesinin metin içeriğini alır ve bu içeriği Türkçe olarak seslendirir. Ayrıca, web sitesinde yer alan görselleri betimleyerek sesli bir şekilde kullanıcıya aktarır.
+<h1>Görme Engelliler İçin Web İçerik Seslendirme Uygulaması</h1>
 
-Özellikler
-Metin Seslendirme: Web sitesindeki metin içerikleri, Google Text-to-Speech (gTTS) kütüphanesi kullanılarak seslendirilmektedir.
-Görsel Betimleme: Web sitesindeki görsellerin betimlenmesi için Microsoft Azure Cognitive Services API'si kullanılmaktadır.
-Çok Dilli Destek: Metinler, otomatik olarak algılanan dilden Türkçeye çevrilip seslendirilmektedir.
-Kurulum
-Bu projeyi yerel makinenize klonlayın:
+<p>Bu proje, görme engelli bireylerin web sitelerindeki metinleri ve görselleri sesli olarak dinlemelerini sağlamak amacıyla geliştirilmiş bir uygulamadır. Uygulama, bir web sitesinin metin içeriğini alır ve bu içeriği Türkçe olarak seslendirir. Ayrıca, web sitesinde yer alan görselleri betimleyerek sesli bir şekilde kullanıcıya aktarır.</p>
 
-bash
-Kodu kopyala
-git clone https://github.com/kullaniciadi/projeadi.git
-Gerekli Python kütüphanelerini yükleyin:
+<h2>Özellikler</h2>
+<ul>
+    <li><strong>Metin Seslendirme:</strong> Web sitesindeki metin içerikleri, Google Text-to-Speech (gTTS) kütüphanesi kullanılarak seslendirilmektedir.</li>
+    <li><strong>Görsel Betimleme:</strong> Web sitesindeki görsellerin betimlenmesi için Microsoft Azure Cognitive Services API'si kullanılmaktadır.</li>
+    <li><strong>Çok Dilli Destek:</strong> Metinler, otomatik olarak algılanan dilden Türkçeye çevrilip seslendirilmektedir.</li>
+</ul>
 
-bash
-Kodu kopyala
-pip install -r requirements.txt
-Not: requirements.txt dosyasına aşağıdaki kütüphaneleri eklemeyi unutmayın:
+<h2>Kurulum</h2>
+<ol>
+    <li>Bu projeyi yerel makinenize klonlayın:</li>
+    <pre><code>git clone https://github.com/kullaniciadi/projeadi.git</code></pre>
 
-tkinter
-gTTS
-pygame
-requests
-beautifulsoup4
-googletrans
-langdetect
-translate
-Uygulamayı çalıştırın:
+    <li>Gerekli Python kütüphanelerini yükleyin:</li>
+    <pre><code>pip install -r requirements.txt</code></pre>
 
-bash
-Kodu kopyala
-python gorme_engelli.py
-Kullanım
-Uygulama açıldığında, seslendirmek istediğiniz web sitesinin URL'sini metin kutusuna girin.
-"Konuş" butonuna tıklayın.
-Uygulama, web sitesindeki metinleri ve görselleri seslendirerek size aktaracaktır.
-Katkıda Bulunma
-Katkılarınızı memnuniyetle karşılıyoruz! Eğer bu projeyi geliştirmek isterseniz, lütfen bir pull request gönderin veya bir konu açın.
+    <li>Uygulamayı çalıştırın:</li>
+    <pre><code>python gorme_engelli.py</code></pre>
+</ol>
 
-Lisans
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına göz atın.
+<h2>Kullanım</h2>
+<ol>
+    <li>Uygulama açıldığında, seslendirmek istediğiniz web sitesinin URL'sini metin kutusuna girin.</li>
+    <li>"Konuş" butonuna tıklayın.</li>
+    <li>Uygulama, web sitesindeki metinleri ve görselleri seslendirerek size aktaracaktır.</li>
+</ol>
+
+<h2>Katkıda Bulunma</h2>
+<p>Katkılarınızı memnuniyetle karşılıyoruz! Eğer bu projeyi geliştirmek isterseniz, lütfen bir pull request gönderin veya bir konu açın.</p>
+
+<h2>Lisans</h2>
+<p>Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için <code>LICENSE</code> dosyasına göz atın.</p>
