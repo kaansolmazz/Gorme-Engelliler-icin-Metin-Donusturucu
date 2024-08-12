@@ -42,4 +42,4 @@
 <p>Katkılarınızı memnuniyetle karşılıyoruz! Eğer bu projeyi geliştirmek isterseniz, lütfen bir pull request gönderin veya bir konu açın.</p>
 
 <h2>Lisans</h2>
-<p>Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için <code>LICENSE</code> dosyasına göz atın.</p>
+<p>Bu proje Kırıkkale Üniversitesi lisans eğitimi altında gerçekleştirilmiştir.</p>
