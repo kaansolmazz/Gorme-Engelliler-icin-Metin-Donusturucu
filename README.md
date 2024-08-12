@@ -11,7 +11,7 @@
 
 <h2>Kurulum</h2>
 <ol>
-    Bu projeyi yerel makinenize klonlayın:
+    <li>Bu projeyi yerel makinenize klonlayın:</li>
     <pre><code>git clone https://github.com/kullaniciadi/projeadi.git</code></pre>
 
     <li>Gerekli Python kütüphanelerini yükleyin:</li>
